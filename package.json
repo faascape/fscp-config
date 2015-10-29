@@ -1,0 +1,35 @@
+{
+   "name": "fscp-config",
+   "version": "0.3.0",
+   "description": "Simple JSON configuration file loader",
+   "keywords": [
+        "configuration", "loader"
+          ],
+
+   "main": "conf.js",
+
+   "maintainers": [
+       {
+           "name": "Xavier Milliard",
+           "email": "xm@faascape.com"
+       } 
+   ],
+
+   "bugs": {
+       "mail": "support@faascape.com",
+       "url": "https://github.com/faascape/fscp-config/issues" 
+   },
+
+   "license": "MIT",
+       
+   "repository": {
+           "type": "git",
+           "url":"git@github.com:faascape/fscp-config.git"
+       },
+   
+   "scripts": {
+    "test":"mocha tests/tests.js",
+    "coverage":"istanbul cover _mocha tests/tests.js -- -R spec"
+   }
+
+}
